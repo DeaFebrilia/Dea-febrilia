@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #5c2d2b;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    flex-basis: 30%;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-info {
+    flex-basis: 70%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.header-info h1 {
+    font-size: 36px;
+    color: #5c2d2b;
+}
+
+.header-info p {
+    font-size: 20px;
+    color: #5c2d2b;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+}
+
+.left-column, .right-column {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-column {
+    background-color: #f2f2f2;
+}
+
+.left-column h2 {
+    color: #5c2d2b;
+    margin-bottom: 10px;
+}
+
+.left-column p, .left-column ul {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.right-column h2 {
+    color: #5c2d2b;
+    margin-bottom: 10px;
+}
+
+.right-column p, .right-column ul {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.right-column h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.right-column h3 span {
+    color: #888;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding-left: 15px;
+    position: relative;
+}
+
+li:before {
+    content: "•";
+    color: #5c2d2b;
+    position: absolute;
+    left: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.achievements ul {
+    padding-left: 0;
+}
